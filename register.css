@@ -67,42 +67,37 @@ a:hover {
 
 }
 
-h1 {
+form {
+	background: rgba(0,0,0,0.3);
 	color: white;
+	max-width: 1000px;
+	font-size: 150%;
 	text-align: center;
-	font-size: 300%;
-	background: rgba(0,0,0,0.4);
+	margin:0 auto;
+
+}
+
+label {
+	display: inline-block;
+	width: 20%;
+	margin-bottom: 1%;
 }
 
 
-img {
-	width: 35.6%;
-	height: 35.6%;
-	margin: 10px;
-	transition: all 1.2s;
+input {
+	font-size: 130%
 }
 
-.coco {
-	width: 35%;
-	height: 35%;
+button {
+	size: 150%;
 }
 
-
-.Container {
-	color: white;
-	background: rgba(0,0,0,0.4);
-	font-family: 'Times New Roman' ,cursive;
-	font-size: 135%;
-	margin-left: 50px;
-	margin-right: 50px;
-	display: inline-flex;
-	justify-content: center;
-}
-
-.footer {
+p {
 	color: #BEBEBE;
-	text-align: center;
 	font-family: 'Times New Roman' ;
 	font-size: 120%;
 	background: rgba(0,0,0,0.4);
+	text-align: center;
+	margin-top: 400px;
+	
 }

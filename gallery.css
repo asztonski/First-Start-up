@@ -64,45 +64,38 @@ a:hover {
 
 @media all and (max-width: 500px) {
 
-
-}
-
-h1 {
-	color: white;
-	text-align: center;
-	font-size: 300%;
-	background: rgba(0,0,0,0.4);
 }
 
 
 img {
-	width: 35.6%;
-	height: 35.6%;
-	margin: 10px;
-	transition: all 1.2s;
-}
-
-.coco {
 	width: 35%;
 	height: 35%;
+	margin: 10px;
+	transition: all 1.5s;
+	align-items: center;
 }
 
+img:hover {
+	transform: scale(1.2);
+}
 
-.Container {
+h1 {
 	color: white;
+	font-size: 2.5em;
 	background: rgba(0,0,0,0.4);
-	font-family: 'Times New Roman' ,cursive;
-	font-size: 135%;
-	margin-left: 50px;
-	margin-right: 50px;
-	display: inline-flex;
-	justify-content: center;
+	text-align: center;
 }
 
-.footer {
-	color: #BEBEBE;
-	text-align: center;
-	font-family: 'Times New Roman' ;
-	font-size: 120%;
-	background: rgba(0,0,0,0.4);
+
+.container {
+	margin-left: 400px;
+}
+
+p {
+  color: #BEBEBE;
+  font-family: 'Times New Roman' ;
+  font-size: 120%;
+  background: rgba(0,0,0,0.4);
+  text-align: center;
+  margin-top: 100px; 
 }

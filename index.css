@@ -21,7 +21,7 @@ body {
 a {
 	color: white;
 	font-weight: 100;
-	letter-spacing: 2px;
+	letter-spacing: 2.5px;
 	text-decoration: none;
 	background: rgba(0,0,0,0.6);
 	padding: 20px 5px;
@@ -36,9 +36,17 @@ a:hover {
 }
 
 .wrapper {
-	max-width: 3000px;
+	max-width: 2000px;
 	margin: 0 auto;
 	padding: 50px;
+}
+
+.sub {
+    max-width: 700px;
+	margin: 0 auto;
+	padding: 100px;
+	box-sizing: 300%;
+	font-size: 300%;
 }
 
 .flex-nav ul {
@@ -47,6 +55,18 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	display: flex;
+}
+
+.flex-sub ul {
+	border: 1px solid black;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+}
+
+.flex-sub li {
+	flex: 4;
 }
 
 .flex-nav li {
@@ -67,42 +87,11 @@ a:hover {
 
 }
 
-h1 {
-	color: white;
-	text-align: center;
-	font-size: 300%;
-	background: rgba(0,0,0,0.4);
-}
-
-
-img {
-	width: 35.6%;
-	height: 35.6%;
-	margin: 10px;
-	transition: all 1.2s;
-}
-
-.coco {
-	width: 35%;
-	height: 35%;
-}
-
-
-.Container {
-	color: white;
-	background: rgba(0,0,0,0.4);
-	font-family: 'Times New Roman' ,cursive;
-	font-size: 135%;
-	margin-left: 50px;
-	margin-right: 50px;
-	display: inline-flex;
-	justify-content: center;
-}
-
-.footer {
+p {
 	color: #BEBEBE;
-	text-align: center;
 	font-family: 'Times New Roman' ;
 	font-size: 120%;
 	background: rgba(0,0,0,0.4);
+	text-align: center;
+	margin-top: 200px;
 }
